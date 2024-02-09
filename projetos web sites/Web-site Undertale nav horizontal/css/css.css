@@ -1,0 +1,433 @@
+@font-face {
+	    font-family:"undertale" ;
+    	src: url(font/undertale-logo-font/MonsterFriendBack.otf);
+} 	
+@font-face {
+	font-family: "pixel";
+	src: url(font/dogica/OTF/dogicabold.otf);
+}
+@font-face {
+	font-family: "sans";
+	src: url(font/kenyan_coffee/kenyan\ coffee\ bd\ it.otf);
+}
+@font-face {
+	font-family: "WD";
+	src: url(font/FAFERS_Technical_Font.ttf);
+}
+.fundo{
+    background-image: url("fundoc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Remova a margem padrão do body */
+    padding: 0; /* Remova o padding padrão do body */
+	height: 100vh; /* 100% da altura da viewport (tela) */
+    width: 100%;   /* 100% da largura disponível */
+}
+
+
+.custom-navbar {
+    position: relative; /* Para permitir que o z-index funcione */
+    z-index: 1; /* Coloque o navbar acima do conteúdo da página */
+}
+nav a{
+	font-family: "undertale";
+}
+h1 a{
+	text-decoration: none;
+	font-family: 'arial';
+}
+.coração{
+	width:25px;
+	height:25px;
+	margin-bottom: 8px;
+}
+.sans{
+	width:35px;
+	height:35px;
+	margin-bottom: 5px;
+	margin-left: 11px;
+}
+.temmie{
+	width:35px;
+	height:35px;	
+	margin-bottom: 5px;
+}
+#obg{
+	margin-left: 450px;
+}
+.direita{
+	float: right;
+	height: 400px;
+	width: 520px;
+	margin-right: 150px;
+	margin-top: 100px;
+	
+}
+#titulo{
+	font-family: "undertale";
+	color: rgba(255, 255, 255, 0.804);
+	font-size: 60px;
+	margin-top: 20px;
+}
+.into{
+	text-align: right;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.64);
+	font-family: "pixel";
+}
+.fundop{
+	background-color: #6a71a3;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 300px 100px;
+  }
+  
+  .grid-item{
+    text-align: center;
+    font-size: 30px;
+    height: 200px;    
+	margin-left: 20px;
+  }
+  .card{
+	width: 320px;
+	transition: 0.5s ease-in-out;
+	height: 420px;
+	
+  }
+  .card-text{
+	font-size: 20px;
+	font-family: "sans";
+  }
+  .card:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+  }
+.imgcard{
+	height: 200px;
+}
+.interoga{
+	margin-left: 30px;
+	width:30px;
+	height:35px;
+	margin-bottom: 5px;
+}
+.alertado{
+	width: 80%;
+	margin-top: 20px;
+}
+.blockimg
+{
+	width: 500px;
+	height: 400px;
+	padding: 20px;
+	border-radius: 50px;
+
+}
+.container2 {
+	display: flex;
+	align-items: center;  
+	gap: 16px;   
+	background-color: rgba(107, 106, 107, 0.616);     
+	border-radius: 20px;    
+	margin-top: 50px
+}
+.quadrostxt
+{
+	margin-top: 10px;
+	padding-right: 100px;
+	font-size: 20px;
+	color: rgb(250, 235, 215);
+	font-family: sans-serif;
+	text-align: center;
+}
+.titulotoby{
+	font-family: "pixel";
+}
+.titu{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.coro{
+	width: 200px;
+	height: auto;
+	margin-bottom: 20px;
+}
+.footer{
+	width: 100%;
+	height: 132px;
+	background-color: #4d4d4d;
+	
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #4d4d4d;
+	
+}
+.imgtoby{
+	height: 50px;
+	width: auto;
+	margin-top: 15px;
+	margin-left: 20px;
+
+}
+.fundo1{
+	background-color: 	#FFD580;
+	height: 100vh;
+	width: 100%;
+}
+.loreimg{
+	padding: 0px;
+}
+.txtlore{
+	margin-left: 260px;
+	margin-right: 30px;
+	width: 70%;
+}
+
+.txtlore p{
+	text-align: right;
+	font-size: 25px;
+}
+
+.txtlore p{
+	text-align: right;
+	font-size: 25px;
+	padding-top: 200px;
+	font-family: "WD";
+}
+
+.imagi{
+	float: left;
+	width: 300px;
+	height: auto;
+	margin-right: 20px;
+	padding-top: 80px;
+}
+
+
+.fundo2{
+	height: 100vh;
+	background-color: #add8e6;
+}
+.fundo3{
+	height: 100vh;
+	background-color: #bdffcb;
+}
+.fundo4{
+	height: 100vh;
+	background-color: #ff7474;
+}
+.fundo5{
+	height: 100vh;
+	background-color: #e1c3ff;
+}
+.footerprincipal{
+	height: 70px;
+	width: auto;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+.copyright{
+	font-size: 20px;
+}
+.fotdiv{
+	margin-top: 5px;
+}
+.acordionlore{
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.hobra{
+	background-color: #aa82cfb0;
+}
+.Wd-img{
+	width: 100%;
+	height: auto;
+}
+.container-wd{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.container-wd2{
+	width: 80%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.txt-wd{
+	width: 80%;
+	
+}
+.txt-wd p{
+	text-align: justify;
+	font-size: 30px; 
+}
+.txt-wd h1{
+	text-align: justify;
+	font-size: 50px; 
+	padding-top: 80px;
+}
+.nc{
+	margin-top: 300px;
+}
+@media screen and (max-width: 1200px){
+    .grid-container{
+        gap: auto auto;
+		grid-template-columns: auto auto;
+		gap: 300px 20px;
+    }
+
+	.card{
+		margin-left: 70px;
+		
+	}
+}
+	@media screen and (max-width: 999px){
+		.container2 {
+			flex-direction: column; /* Muda para um layout de coluna em telas menores */
+		 }
+	  
+		 .quadrostxt {
+			padding-right: 0;
+			text-align: center; /* Alinha o texto ao centro em telas menores */
+		 }
+	
+		 @media screen and (max-width: 850px){
+			.txtlore{
+				margin-left: 0px;
+				margin-right: 0px;
+				margin-top: 0px;
+				width: 100%;
+				display: flex;
+				align-items: center; 	
+				justify-content: center;
+			}
+
+			.daimagi{
+				width: 100%;
+				display: flex;
+				align-items: center; 	
+				justify-content: center;
+			}
+			.imagi{
+				height:300px;
+				width: auto;
+				margin-top:0;
+			}
+			.txtlore p{
+				text-align: center;
+				font-size: 20px;
+				padding-top: 20px;
+			}
+			.alertado{
+			margin-bottom:0px
+			}
+	
+		}
+	@media screen and (max-width: 800px){
+		.grid-container{
+			gap: auto auto;
+			grid-template-columns: auto;
+			gap: 300px 20px;
+		}
+		.grid-item{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			
+		}
+		.niv{
+			margin-bottom: 150px;
+		}
+		.txt-wd p{
+			text-align: justify;
+			font-size: 24px; 
+		}
+		.txt-wd h1{
+			text-align: justify;
+			font-size: 40px; 
+			padding-top: 80px;
+		}
+		.nave{
+			margin-bottom: 150px;
+		}
+		.card{
+			margin-left: 0px;
+		}
+		.fundo{
+			background-image: url("Wallpaper-Video-Game-Undertale-Sans-Undertale-1920x10850-1.jpg");
+		}
+		#titulo{
+			font-size: 40px;
+			justify-content: center;
+		}
+		.direita{
+
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			float: none;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.into{
+			justify-content: center;
+			text-align: center;
+		}
+		.alertado {
+			width: 80%; /* Ajuste a largura para telas menores */
+		}
+		
+	}
+	
+
+
+   
+  }
+
+
+	@media screen and (max-width: 445px){
+		#titulo{
+			font-size: 24px;
+			justify-content: center;
+
+		}
+		.direita{
+			height: 250px;
+			width: 100%;
+			margin-right: 0px;
+			margin-left: 0px;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			float: none;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.into{
+			margin-left: 0px;
+			justify-content:center;
+		}
+		.container2 {
+			flex-direction: column; /* Muda para um layout de coluna em telas menores */
+			width: 80%;
+			
+		 }
+	  
+		 .quadrostxt {
+			padding-right: 0;
+			text-align: center; /* Alinha o texto ao centro em telas menores */
+			font-size: 16px;
+		 }
+		 .blockimg{
+			width: 110%;
+		 }
+	}
